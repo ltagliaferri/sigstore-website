@@ -2,7 +2,7 @@
   "links": [
     {
       "name": "Blog",
-      "url": "https://medium.com/sigstore"
+      "url": "https://blog.sigstore.dev"
     },
     {
       "name": "GitHub",
@@ -11,6 +11,10 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/projectsigstore"
+    },
+    {
+      "name": "Slack",
+      "url": "https://links.sigstore.dev/slack-invite"
     }
   ]
 }

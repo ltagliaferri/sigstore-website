@@ -12,12 +12,12 @@ sections:
       ctaText: See how it works
       ctaLink: https://github.com/sigstore/root-signing
     card2:
-      header: "Threat model: coming soon"
+      header: "Security model"
       imageAsset: ""
-      text: Our threat model will provide a way to plan against and prevent known
-        threats to sigstore's infrastructure. This is currently in development.
-      ctaText: Read about our progress
-      ctaLink: https://blog.sigstore.dev/sigstore-project-update-may-2021-ad8df9ac8dc5
+      text: The security model details how trust is established and identity is
+        used in signing and verification.
+      ctaText: Learn more
+      ctaLink: https://docs.sigstore.dev/security
     text: An open, accessible foundation behind the policies and protocols sigstore
       needs to work, grounded in an open source, distributed community.
     header: Our foundations of trust
@@ -40,18 +40,6 @@ sections:
       isCardStyle: false
       ctaText: ""
     column2:
-      github: https://github.com/dlorenc
-      ctaLink: ""
-      socialLinks: true
-      subHeader: CEO @ Chainguard
-      text: Dan joined Luke to collaborate on building out container signing and
-        verification.
-      header: Dan Lorenc
-      twitter: https://twitter.com/lorenc_dan
-      imageAsset: ""
-      isCardStyle: false
-      ctaText: ""
-    column3:
       header: Bob Callaway
       subHeader: Tech Lead & Manager, Google Open Source Security Team
       github: https://github.com/bobcallaway
@@ -63,7 +51,41 @@ sections:
       imageAsset: ""
       ctaText: ""
       ctaLink: ""
-    subHeader: Technical advisory council
+    column3:
+      header: Priya Wadhwa
+      subHeader: Software Engineer, Chainguard
+      github: https://github.com/priyawadhwa
+      twitter: https://twitter.com/priyawadhwa16
+      text: Priya is a maintainer on sigstore and its infrastructure.
+      isCardStyle: false
+      socialLinks: true
+      imageAsset: ""
+      ctaText: ""
+      ctaLink: ""
+    subHeader: Technical Steering Committee
+  - type: twoColumnTextGrid
+    column1:
+      header: Santiago Torres-Arias
+      subHeader: Assistant Professor, Purdue University
+      github: https://github.com/SantiagoTorres
+      twitter: https://twitter.com/TorresAriasS
+      text: Santiago's research focuses on securing the software development life-cycle.
+      isCardStyle: false
+      socialLinks: true
+      imageAsset: ""
+      ctaText: ""
+      ctaLink: ""
+    column2:
+      header: Trevor Rosen
+      subHeader: Engineering Manager, GitHub
+      github: https://github.com/trevrosen
+      twitter: ""
+      text: Trevor leads the Package Security Engineering team at GitHub.
+      isCardStyle: false
+      socialLinks: true
+      imageAsset: ""
+      ctaText: ""
+      ctaLink: ""
   - type: coreContributors
     isCoreContributors: true
 ---
